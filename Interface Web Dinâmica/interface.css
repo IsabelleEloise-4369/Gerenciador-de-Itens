@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    font-weight: bold;
+    
+}
+
+h1,h2{
+    margin: 20px 0px 20px 0px;
+    color:rgb(255, 0, 106);
+    font-weight: 800;
+    
+}
+
+label{
+    color: white;
+}
+
+input{
+    width: 350px;
+    height: 35px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: rgb(255, 192, 229);
+    border: 3px dashed rgb(255, 0, 106);
+}
+
+table{
+    width: 80% ;/* AJUSTAR LARGURA DA TABELA Á TELA */
+    margin: 0 auto;
+    border-collapse: collapse; /* REMOVER BORDAS ENTRE CÉLULAS */
+    color: white;
+    
+
+}
+
+thead th{
+    border: 3px solid  rgb(255, 0, 149);
+}
+
+th, td{
+    padding: 8px; /* ESPAÇAMENTO INTERNTO NAS CÉLULAS */
+    font-weight: bold; /* TEXTO EM NEGRITO */
+    border: 1px solid rgb(139, 19, 69);
+}
+
+th{
+    background-color: rgb(202, 132, 181);   /* COR DE FUNDO DO CABEÇALHO */
+    font-weight: bold; /* TEXTO EM NEGRITO */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(170, 99, 132);
+}
+
+
+img{
+    width: 200px;
+    height: 200px;
+
+}
+
+button{
+    padding: 10px;
+    background-color: rgb(255, 194, 237);
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 20px;
+    
+}
+
+button:hover{
+    background-color: rgb(255, 49, 176);
+}
+
+.background-video {
+    position: fixed;
+    z-index: -1;
+}
+  
+.background-video video {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+} 
